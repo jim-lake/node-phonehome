@@ -1,0 +1,27 @@
+{
+  "name": "node-phonehome",
+  "version": "0.0.1",
+  "description": "Phonehome with platform information.",
+  "scripts": {
+    "start": "node --harmony cli.js"
+  },
+  "main": "index.js",
+  "bin": {
+    "node-phonehome": "cli.js"
+  },
+  "keywords": [
+    "phonehome"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jim-lake/node-phonehome.git"
+  },
+  "author": {
+    "name": "Jim Lake"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "*",
+    "lodash": "3.x"
+  }
+}
